@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B87BEC8EA02119307EB1AB1 /* Pods_GeoNouns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39711A01503E5CA1008D685F /* Pods_GeoNouns.framework */; };
 		A45C2CCE2BA60164004B5EBC /* GeoNounsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C2CCD2BA60164004B5EBC /* GeoNounsApp.swift */; };
-		A45C2CD02BA60164004B5EBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C2CCF2BA60164004B5EBC /* ContentView.swift */; };
 		A45C2CD22BA60165004B5EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45C2CD12BA60165004B5EBC /* Assets.xcassets */; };
 		A45C2CD52BA60165004B5EBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45C2CD42BA60165004B5EBC /* Preview Assets.xcassets */; };
+		A45C2CDC2BA60815004B5EBC /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C2CDB2BA60815004B5EBC /* ConnectView.swift */; };
+		A45C2CDE2BA61E22004B5EBC /* SignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C2CDD2BA61E22004B5EBC /* SignView.swift */; };
+		A45C2CE02BA6200B004B5EBC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C2CDF2BA6200B004B5EBC /* MapView.swift */; };
+		A45C2CE52BA632FD004B5EBC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C2CE42BA632FD004B5EBC /* ContentViewModel.swift */; };
+		A45C2CE72BA64016004B5EBC /* NewMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C2CE62BA64016004B5EBC /* NewMapView.swift */; };
+		A45C2CEB2BA64A0F004B5EBC /* noun_48.svg in Resources */ = {isa = PBXBuildFile; fileRef = A45C2CE92BA64A0F004B5EBC /* noun_48.svg */; };
+		A45C2CEC2BA64A0F004B5EBC /* noun_80.svg in Resources */ = {isa = PBXBuildFile; fileRef = A45C2CEA2BA64A0F004B5EBC /* noun_80.svg */; };
+		A45C2CEE2BA64D4D004B5EBC /* NounAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C2CED2BA64D4D004B5EBC /* NounAnnotations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BC6BCFD8B996CFC6E0C9872 /* Pods-GeoNouns.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoNouns.release.xcconfig"; path = "Target Support Files/Pods-GeoNouns/Pods-GeoNouns.release.xcconfig"; sourceTree = "<group>"; };
+		39711A01503E5CA1008D685F /* Pods_GeoNouns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoNouns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45C2CCA2BA60164004B5EBC /* GeoNouns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoNouns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45C2CCD2BA60164004B5EBC /* GeoNounsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoNounsApp.swift; sourceTree = "<group>"; };
-		A45C2CCF2BA60164004B5EBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A45C2CD12BA60165004B5EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A45C2CD42BA60165004B5EBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A45C2CDB2BA60815004B5EBC /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
+		A45C2CDD2BA61E22004B5EBC /* SignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignView.swift; sourceTree = "<group>"; };
+		A45C2CDF2BA6200B004B5EBC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A45C2CE12BA6271E004B5EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45C2CE32BA62799004B5EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45C2CE42BA632FD004B5EBC /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		A45C2CE62BA64016004B5EBC /* NewMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMapView.swift; sourceTree = "<group>"; };
+		A45C2CE92BA64A0F004B5EBC /* noun_48.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noun_48.svg; sourceTree = "<group>"; };
+		A45C2CEA2BA64A0F004B5EBC /* noun_80.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noun_80.svg; sourceTree = "<group>"; };
+		A45C2CED2BA64D4D004B5EBC /* NounAnnotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NounAnnotations.swift; sourceTree = "<group>"; };
+		D1C96213F021C1CC48E16BE0 /* Pods-GeoNouns.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoNouns.debug.xcconfig"; path = "Target Support Files/Pods-GeoNouns/Pods-GeoNouns.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +46,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B87BEC8EA02119307EB1AB1 /* Pods_GeoNouns.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1258CA3622FE064E79C3A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1C96213F021C1CC48E16BE0 /* Pods-GeoNouns.debug.xcconfig */,
+				1BC6BCFD8B996CFC6E0C9872 /* Pods-GeoNouns.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7677538B50CD44DC93F356A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39711A01503E5CA1008D685F /* Pods_GeoNouns.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A45C2CC12BA60164004B5EBC = {
 			isa = PBXGroup;
 			children = (
+				A45C2CE82BA64A0F004B5EBC /* nouns */,
+				A45C2CE42BA632FD004B5EBC /* ContentViewModel.swift */,
 				A45C2CCC2BA60164004B5EBC /* GeoNouns */,
 				A45C2CCB2BA60164004B5EBC /* Products */,
+				1F1258CA3622FE064E79C3A5 /* Pods */,
+				7677538B50CD44DC93F356A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +93,16 @@
 		A45C2CCC2BA60164004B5EBC /* GeoNouns */ = {
 			isa = PBXGroup;
 			children = (
+				A45C2CE32BA62799004B5EBC /* Info.plist */,
+				A45C2CDB2BA60815004B5EBC /* ConnectView.swift */,
+				A45C2CDD2BA61E22004B5EBC /* SignView.swift */,
+				A45C2CDF2BA6200B004B5EBC /* MapView.swift */,
+				A45C2CE62BA64016004B5EBC /* NewMapView.swift */,
+				A45C2CED2BA64D4D004B5EBC /* NounAnnotations.swift */,
 				A45C2CCD2BA60164004B5EBC /* GeoNounsApp.swift */,
-				A45C2CCF2BA60164004B5EBC /* ContentView.swift */,
 				A45C2CD12BA60165004B5EBC /* Assets.xcassets */,
 				A45C2CD32BA60165004B5EBC /* Preview Content */,
+				A45C2CE12BA6271E004B5EBC /* Info.plist */,
 			);
 			path = GeoNouns;
 			sourceTree = "<group>";
@@ -67,6 +115,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A45C2CE82BA64A0F004B5EBC /* nouns */ = {
+			isa = PBXGroup;
+			children = (
+				A45C2CEA2BA64A0F004B5EBC /* noun_80.svg */,
+				A45C2CE92BA64A0F004B5EBC /* noun_48.svg */,
+			);
+			path = nouns;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A45C2CD82BA60165004B5EBC /* Build configuration list for PBXNativeTarget "GeoNouns" */;
 			buildPhases = (
+				44B2BAAF9D3FD3C67E4E4F6E /* [CP] Check Pods Manifest.lock */,
 				A45C2CC62BA60164004B5EBC /* Sources */,
 				A45C2CC72BA60164004B5EBC /* Frameworks */,
 				A45C2CC82BA60164004B5EBC /* Resources */,
+				69357C884021F1DB06F48EE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +184,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45C2CEC2BA64A0F004B5EBC /* noun_80.svg in Resources */,
+				A45C2CEB2BA64A0F004B5EBC /* noun_48.svg in Resources */,
 				A45C2CD52BA60165004B5EBC /* Preview Assets.xcassets in Resources */,
 				A45C2CD22BA60165004B5EBC /* Assets.xcassets in Resources */,
 			);
@@ -132,12 +193,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44B2BAAF9D3FD3C67E4E4F6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoNouns-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69357C884021F1DB06F48EE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoNouns/Pods-GeoNouns-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoNouns/Pods-GeoNouns-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoNouns/Pods-GeoNouns-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A45C2CC62BA60164004B5EBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45C2CD02BA60164004B5EBC /* ContentView.swift in Sources */,
+				A45C2CDC2BA60815004B5EBC /* ConnectView.swift in Sources */,
+				A45C2CEE2BA64D4D004B5EBC /* NounAnnotations.swift in Sources */,
+				A45C2CDE2BA61E22004B5EBC /* SignView.swift in Sources */,
+				A45C2CE72BA64016004B5EBC /* NewMapView.swift in Sources */,
+				A45C2CE52BA632FD004B5EBC /* ContentViewModel.swift in Sources */,
+				A45C2CE02BA6200B004B5EBC /* MapView.swift in Sources */,
 				A45C2CCE2BA60164004B5EBC /* GeoNounsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +374,7 @@
 		};
 		A45C2CD92BA60165004B5EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C96213F021C1CC48E16BE0 /* Pods-GeoNouns.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -274,7 +383,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GeoNouns/Preview Content\"";
 				DEVELOPMENT_TEAM = TWQ8824PK2;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoNouns/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,6 +406,7 @@
 		};
 		A45C2CDA2BA60165004B5EBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC6BCFD8B996CFC6E0C9872 /* Pods-GeoNouns.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,7 +415,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GeoNouns/Preview Content\"";
 				DEVELOPMENT_TEAM = TWQ8824PK2;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoNouns/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
