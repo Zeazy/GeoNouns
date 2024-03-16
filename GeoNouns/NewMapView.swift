@@ -28,6 +28,7 @@ struct NewMapView: View {
                 }
             }
         }
+        .mapStyle(.standard(elevation: .realistic))
     }
 }
 
