@@ -11,6 +11,8 @@
 		A41B33E82BA4D65B00629591 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41B33E72BA4D65B00629591 /* ContentView.swift */; };
 		A41B33EA2BA4D65D00629591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41B33E92BA4D65D00629591 /* Assets.xcassets */; };
 		A41B33ED2BA4D65D00629591 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41B33EC2BA4D65D00629591 /* Preview Assets.xcassets */; };
+		A41B33F52BA4D83D00629591 /* Web3Modal in Frameworks */ = {isa = PBXBuildFile; productRef = A41B33F42BA4D83D00629591 /* Web3Modal */; };
+		A41B33F72BA4D83D00629591 /* Web3ModalUI in Frameworks */ = {isa = PBXBuildFile; productRef = A41B33F62BA4D83D00629591 /* Web3ModalUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41B33F52BA4D83D00629591 /* Web3Modal in Frameworks */,
+				A41B33F72BA4D83D00629591 /* Web3ModalUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,10 @@
 			dependencies = (
 			);
 			name = GeoNouns;
+			packageProductDependencies = (
+				A41B33F42BA4D83D00629591 /* Web3Modal */,
+				A41B33F62BA4D83D00629591 /* Web3ModalUI */,
+			);
 			productName = GeoNouns;
 			productReference = A41B33E22BA4D65B00629591 /* GeoNouns.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = A41B33D92BA4D65B00629591;
+			packageReferences = (
+				A41B33F32BA4D83D00629591 /* XCRemoteSwiftPackageReference "web3modal-swift" */,
+			);
 			productRefGroup = A41B33E32BA4D65B00629591 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +355,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A41B33F32BA4D83D00629591 /* XCRemoteSwiftPackageReference "web3modal-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WalletConnect/web3modal-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A41B33F42BA4D83D00629591 /* Web3Modal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A41B33F32BA4D83D00629591 /* XCRemoteSwiftPackageReference "web3modal-swift" */;
+			productName = Web3Modal;
+		};
+		A41B33F62BA4D83D00629591 /* Web3ModalUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A41B33F32BA4D83D00629591 /* XCRemoteSwiftPackageReference "web3modal-swift" */;
+			productName = Web3ModalUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A41B33DA2BA4D65B00629591 /* Project object */;
 }
