@@ -15,9 +15,12 @@ extension CLLocationCoordinate2D {
 
 struct NewMapView: View {
     @StateObject private var nounAnnotations = NounAnnotations()
-
+    @State var position: MapCameraPosition = .userLocation(fallback: .automatic)
+    @State private var selectedNoun: String?
+    @State private var showSheet = false
+    
     var body: some View {
-        Map {
+        Map(position: $position) {
             ForEach(nounAnnotations.annotations) { annotation in
                 Annotation("", coordinate: annotation.coordinate, anchor: .bottom) {
                     Image(annotation.imageName)
@@ -25,10 +28,26 @@ struct NewMapView: View {
                         .frame(width: 50, height: 50)
                         .padding()
                         .cornerRadius(3.0)
+                        .onTapGesture {
+                            selectedNoun = annotation.imageName
+                            showSheet = true
+                        }
                 }
             }
         }
         .mapStyle(.standard(elevation: .realistic))
+        .sheet(isPresented: $showSheet) {
+            if let nounName = selectedNoun {
+                VStack {
+                    Text("Selected Noun: \(nounName)")
+                    Button("Dismiss") {
+                        showSheet = false
+                    }
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.white)
+            }
+        }
     }
 }
 
