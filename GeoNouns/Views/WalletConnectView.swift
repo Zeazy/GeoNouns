@@ -15,7 +15,7 @@ struct WalletConnectView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Button(action: {
+                ConnectButtonView(action: {
                     Task {
                         let result = await connectionManager.connectToMetamask()
                         switch result {
@@ -27,11 +27,7 @@ struct WalletConnectView: View {
                             connectionError = error.localizedDescription
                         }
                     }
-                }) {
-                    Image("metamask_logo")
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                }
+                })
                 .padding()
                 
                 if let error = connectionError {
