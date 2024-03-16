@@ -1,1 +1,16 @@
+<<<<<<< HEAD
 GeoNouns.xcodeproj/**
+=======
+.DS_Store
+/.build
+/Packages
+Pods/
+Podfile.lock
+/*.xcodeproj
+xcuserdata/
+DerivedData/
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+.swiftformat
+>>>>>>> e664048 (update gitignore)
