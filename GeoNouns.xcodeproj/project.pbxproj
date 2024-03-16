@@ -19,6 +19,8 @@
 		A45C2CEB2BA64A0F004B5EBC /* noun_48.svg in Resources */ = {isa = PBXBuildFile; fileRef = A45C2CE92BA64A0F004B5EBC /* noun_48.svg */; };
 		A45C2CEC2BA64A0F004B5EBC /* noun_80.svg in Resources */ = {isa = PBXBuildFile; fileRef = A45C2CEA2BA64A0F004B5EBC /* noun_80.svg */; };
 		A45C2CEE2BA64D4D004B5EBC /* NounAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C2CED2BA64D4D004B5EBC /* NounAnnotations.swift */; };
+		A45C2CF02BA65DF6004B5EBC /* NounInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C2CEF2BA65DF6004B5EBC /* NounInfoView.swift */; };
+		A45C2CF22BA66240004B5EBC /* nountown.otf in Resources */ = {isa = PBXBuildFile; fileRef = A45C2CF12BA66240004B5EBC /* nountown.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		A45C2CE92BA64A0F004B5EBC /* noun_48.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noun_48.svg; sourceTree = "<group>"; };
 		A45C2CEA2BA64A0F004B5EBC /* noun_80.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noun_80.svg; sourceTree = "<group>"; };
 		A45C2CED2BA64D4D004B5EBC /* NounAnnotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NounAnnotations.swift; sourceTree = "<group>"; };
+		A45C2CEF2BA65DF6004B5EBC /* NounInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NounInfoView.swift; sourceTree = "<group>"; };
+		A45C2CF12BA66240004B5EBC /* nountown.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nountown.otf; sourceTree = "<group>"; };
 		D1C96213F021C1CC48E16BE0 /* Pods-GeoNouns.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoNouns.debug.xcconfig"; path = "Target Support Files/Pods-GeoNouns/Pods-GeoNouns.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +77,7 @@
 		A45C2CC12BA60164004B5EBC = {
 			isa = PBXGroup;
 			children = (
+				A45C2CF12BA66240004B5EBC /* nountown.otf */,
 				A45C2CE82BA64A0F004B5EBC /* nouns */,
 				A45C2CE42BA632FD004B5EBC /* ContentViewModel.swift */,
 				A45C2CCC2BA60164004B5EBC /* GeoNouns */,
@@ -98,6 +103,7 @@
 				A45C2CDD2BA61E22004B5EBC /* SignView.swift */,
 				A45C2CDF2BA6200B004B5EBC /* MapView.swift */,
 				A45C2CE62BA64016004B5EBC /* NewMapView.swift */,
+				A45C2CEF2BA65DF6004B5EBC /* NounInfoView.swift */,
 				A45C2CED2BA64D4D004B5EBC /* NounAnnotations.swift */,
 				A45C2CCD2BA60164004B5EBC /* GeoNounsApp.swift */,
 				A45C2CD12BA60165004B5EBC /* Assets.xcassets */,
@@ -188,6 +194,7 @@
 				A45C2CEB2BA64A0F004B5EBC /* noun_48.svg in Resources */,
 				A45C2CD52BA60165004B5EBC /* Preview Assets.xcassets in Resources */,
 				A45C2CD22BA60165004B5EBC /* Assets.xcassets in Resources */,
+				A45C2CF22BA66240004B5EBC /* nountown.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +251,7 @@
 				A45C2CEE2BA64D4D004B5EBC /* NounAnnotations.swift in Sources */,
 				A45C2CDE2BA61E22004B5EBC /* SignView.swift in Sources */,
 				A45C2CE72BA64016004B5EBC /* NewMapView.swift in Sources */,
+				A45C2CF02BA65DF6004B5EBC /* NounInfoView.swift in Sources */,
 				A45C2CE52BA632FD004B5EBC /* ContentViewModel.swift in Sources */,
 				A45C2CE02BA6200B004B5EBC /* MapView.swift in Sources */,
 				A45C2CCE2BA60164004B5EBC /* GeoNounsApp.swift in Sources */,

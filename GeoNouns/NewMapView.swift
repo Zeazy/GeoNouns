@@ -26,8 +26,6 @@ struct NewMapView: View {
                     Image(annotation.imageName)
                         .resizable()
                         .frame(width: 50, height: 50)
-                        .padding()
-                        .cornerRadius(3.0)
                         .onTapGesture {
                             selectedNoun = annotation.imageName
                             showSheet = true
@@ -38,21 +36,20 @@ struct NewMapView: View {
         .mapStyle(.standard(elevation: .realistic))
         .sheet(isPresented: $showSheet) {
             if let nounName = selectedNoun {
-                VStack {
-                    Text("Selected Noun: \(nounName)")
-                    Button("Dismiss") {
+                if let nounName = selectedNoun {
+                    NounInfoView(nounName: nounName) {
                         showSheet = false
                     }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(Color.white)
                 }
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.white)
             }
         }
     }
 }
-
-struct NewMapView_Previews: PreviewProvider {
-    static var previews: some View {
-        NewMapView()
+    
+    struct NewMapView_Previews: PreviewProvider {
+        static var previews: some View {
+            NewMapView()
+        }
     }
-}
