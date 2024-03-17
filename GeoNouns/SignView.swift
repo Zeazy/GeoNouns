@@ -24,20 +24,20 @@ struct SignView: View {
     }
     
     func signMessage() async {
-//        let account = metamaskSDK.account
-//
-//        showProgressView = true
-//        let requestResult = await metamaskSDK.signTypedDataV4(typedData: signMessage, address: account)
-//        showProgressView = false
-//        
-//        switch requestResult {
-//        case let .success(value):
-//            result = value
-//            errorMessage = ""
-//        case let .failure(error):
-//            errorMessage = error.localizedDescription
-//            showError = true
-//        }
+       let account = metamaskSDK.account
+
+       showProgressView = true
+       let requestResult = await metamaskSDK.signTypedDataV4(typedData: signMessage, address: account)
+       showProgressView = false
+       
+       switch requestResult {
+       case let .success(value):
+           result = value
+           errorMessage = ""
+       case let .failure(error):
+           errorMessage = error.localizedDescription
+           showError = true
+       }
     }
 }
 
