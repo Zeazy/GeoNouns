@@ -23,7 +23,7 @@ struct NounInfoView: View {
         
         VStack {
             Button(action: {
-                // TODO: Handle mint action
+                await signMessage()
             }) {
                 Text("Mint")
                     .font(.custom("NounTown", size: 20))
