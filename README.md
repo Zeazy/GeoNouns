@@ -3,6 +3,8 @@
 ## Overview
 Geo Nouns Treasure Hunt is an iOS native app that turns the world into a treasure map where you can find and collect virtual treasures, termed "Geo Nouns". Using geolocation technology, players can discover hidden Nouns scattered throughout cities and places around the globe. Once a Noun is found, players have the opportunity to mint it as a digital collectible, adding it to their personal collection. The primary goal is to explore, mint, and amass a diverse collection of Geo Nouns from various locations worldwide.
 
+Built for the ETHGlobal London 2024 Hackathon.
+
 ## Features
 - **Explore and Discover**: Use the app's map to find Geo Nouns in your city or while traveling.
 - **Mint Geo Nouns**: Securely mint found Nouns as NFTs (non-fungible tokens) to claim ownership.
